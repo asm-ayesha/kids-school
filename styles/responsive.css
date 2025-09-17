@@ -1,0 +1,21 @@
+@media screen and (max-width: 576px) {
+    .scl-logo .scl-name{
+       display: none;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .conct-btn{
+        display: none;
+    }
+
+    .nav-container{
+        margin: 10px 20px;
+    }
+
+    .bars{
+        display: block;
+    }
+}

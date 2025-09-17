@@ -36,7 +36,7 @@
 
 
 /* navbar section style */
-.container{
+.nav-container{
     justify-content:space-between ;
     align-items: center;
     margin: 20px 140px;
@@ -82,7 +82,9 @@
 }
 
 .bars{
-      visibility: hidden;
+      display: none;
+      font-size: 2rem;
+      color: var(--color-accent);
 }
 
 .conct-btn{
