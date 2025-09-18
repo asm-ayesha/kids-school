@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,28 +9,90 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/responsive.css">
     <!-- font awesome link -->
-     <script src="https://kit.fontawesome.com/321cae72b3.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/321cae72b3.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <!--navbar section design -->
-        <nav class="nav-container display-flex">
-            <div class="scl-logo display-flex">
-                <img src="./assets/logo.png" alt="">
-                <h2 class="scl-name">K<span style="color:var(--bg2)">i</span><span  style="color:var(--bg3)">n</span><span  style="color:var(--bg1)">d</span><span  style="color:var(--color-primary)">e</span><span  style="color:var(--text3)">r</span><span style="color:var(--text1)">g</span><span  style="color:#8a0278">r</span><span  style="color:#6604e5">a</span><span  style="color:#e50466">t</span><span  style="color:#03c74e">e</span><span  style="color:#01b7ab">n</span> 
-                </h2>
-            </div>
-            <div class="menu display-flex">
-                <a href="#" class="home">Home</a>
-                <a href="#" class="about">About</a>
-                <a href="#" class="facili">Facilities</a>
-                <a href="#" class="admis">Admission</a>
-            </div>
-            <div class="bars">
-                <a href="#" class="bars"><i class="fa-solid fa-bars"></i></a>
-            </div>
-            <button class="conct-btn">Contact</button>
+        <nav>
+            <section class="nav-container display-flex">
+                <div class="scl-logo display-flex">
+                    <img src="./assets/logo.png" alt="">
+                    <h2 class="scl-name">K<span style="color:var(--bg2)">i</span><span
+                            style="color:var(--bg3)">n</span><span style="color:var(--bg1)">d</span><span
+                            style="color:var(--color-primary)">e</span><span style="color:var(--text3)">r</span><span
+                            style="color:var(--text1)">g</span><span style="color:#8a0278">r</span><span
+                            style="color:#6604e5">a</span><span style="color:#e50466">t</span><span
+                            style="color:#03c74e">e</span><span style="color:#01b7ab">n</span>
+                    </h2>
+                </div>
+                <div class="menu display-flex">
+                    <a href="#" class="home">Home</a>
+                    <a href="#" class="about">About</a>
+                    <a href="#" class="facili">Facilities</a>
+                    <a href="#" class="admis">Admission</a>
+                </div>
+                <div class="bars">
+                    <a href="#" class="bars"><i class="fa-solid fa-bars"></i></a>
+                </div>
+                <button class="conct-btn">Contact</button>
+            </section>
         </nav>
+
+        <!-- banner section design -->
+        <section class="banner-container display-flex">
+            <div class="banner-content">
+                <h1 class="banner-title"><span style="color: var(--color-primary);">Empowering</span>
+                    students from small age <span style="color: var(--color-accent);">towards vision</span></h1>
+                <p class="banner-description">With the courage, Confidence, Creativity and Compassion to make their
+                    Unique Contribution in a Diverse and Dynamic World.</p>
+                <button class="btn">Enroll Now</button>
+            </div>
+
+            <div class="banner-img">
+                <img src="./assets/hero-kids.png" alt="">
+            </div>
+
+        </section>
     </header>
+
+    <main>
+        <!-- standard curriculum -->
+        <section class="standard-container">
+            <h1 class="standard-title title">Standard Curriculum </h1>
+            <div class="cards-item display-flex">
+                <div class="kinder">
+                    <img src="./assets/kinder.png" alt="">
+                    <h3 class="card-title">Kinder (3-6) Years</h3>
+                    <p class="card-description">Cum sociis natoque penatibus et magnis
+                        dis parturient montes, nascetur ridiculus
+                        mu sdis parturient</p>
+                    <button class="kinder-btn">Read More</button>
+                </div>
+                <div class="kinder">
+                    <img src="./assets/kinder.png" alt="">
+                    <h3 class="card-title">Elementary School</h3>
+                    <p class="card-description">Cum sociis natoque penatibus et magnis
+                        dis parturient montes, nascetur ridiculus
+                        mu sdis parturient</p>
+                    <button class="elementary-btn">Read More</button>
+                </div>
+                <div class="kinder">
+                    <img src="./assets/kinder.png" alt="">
+                    <h3 class="card-title">Middle (10-16) Years</h3>
+                    <p class="card-description">Cum sociis natoque penatibus et magnis
+                        dis parturient montes, nascetur ridiculus
+                        mu sdis parturient</p>
+                    <button class=" middle-btn">Read More</button>
+                </div>
+            </div>
+            <div class="card-btn">
+                <button class="gatterthan-btn"><</button>
+                <button class="lessthan-btn">></button>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>

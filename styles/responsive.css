@@ -1,4 +1,6 @@
 @media screen and (max-width: 576px) {
+
+    /* navbar */
     .scl-logo .scl-name{
        display: none;
     }
@@ -15,7 +17,26 @@
         margin: 10px 20px;
     }
 
+    nav{
+        border-bottom: 2px solid orange;
+    }
+
     .bars{
         display: block;
     }
+
+    /* banner section */
+    .banner-container{
+        flex-direction: column-reverse;
+        margin:40px 20px;
+
+        
+    }
+
+    .banner-content{
+
+        margin-top: 20px;
+        text-align: center;
+    }
+
 }
