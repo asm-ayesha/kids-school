@@ -39,4 +39,12 @@
         text-align: center;
     }
 
+    .cards-item{
+        flex-direction: column;
+    }
+
+    .card-btn{
+        display: none;
+    }
+
 }
