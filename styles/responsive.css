@@ -39,9 +39,25 @@
         text-align: center;
     }
 
+
+
+
+/* .title{
+    font-size: 2rem;
+} */
+
+    /* standard curriculum  resposive*/
     .cards-item{
         flex-direction: column;
+        margin: 0 16px;
     }
+
+    .kinder img,
+.elementary img,
+.middle img {
+    
+    padding: 30px ;
+}
 
     .card-btn{
         display: none;
