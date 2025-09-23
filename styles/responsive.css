@@ -63,4 +63,12 @@
         display: none;
     }
 
+
+    /* footer section responsive */
+    .footer-container{
+        margin: 0 16px;
+        flex-direction: column;
+        gap: 32px;
+        padding: 40px 0 40px 0;
+    }
 }
