@@ -14,7 +14,8 @@
     --color-primary: rgba(254, 163, 1, 1);
     --color-accent: rgba(1, 172, 253, 1);
     --text1: rgba(5, 212, 223, 1);
-    --text2:  rgba(255, 255, 255, 1);;
+    --text2: rgba(255, 255, 255, 1);
+    ;
     --text3: #8700FF;
     --bg1: rgba(60, 216, 232, 1);
     --bg2: rgba(149, 178, 38, 1);
@@ -246,162 +247,193 @@
 /* our stories section styles */
 .stories-container {
     background-image: var(--gradient-4), url(../assets/bg.png);
-    background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+
+}
+
+.stories-btn {
+    margin: 90px 0 70px;
 }
 
 .stories-grid {
     margin: 0 140px;
     display: grid;
-   grid-template-columns: repeat(12,1fr);
-   grid-template-rows: repeat(2,1fr);
-   gap: 20px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+
+
 }
 
-.large-card{
-    grid-column: 1/ span 6;
-    grid-row: 1/ span 2;
-   border-radius:16px ;
-background-color: var(--text2);
- position: relative;
+.story-card {
+
+    background-color: var(--text2);
+    border-radius: 16px;
+    position: relative;
 }
 
-.school-fits{
-   grid-column: 7/ span 9;
-   grid-row: 1/ span 1;
-}
-
-.summer-math{
-   grid-column: 10/ span 12;
-   grid-row: 1/ span 1;
-
-} 
-
-.new-tutors{
-      grid-column:7/ span 9 ;
-    grid-row: 2/ span 2;
-}
-
-.kids-listening{
-    grid-column: 10/ span 12;
-    grid-row: 2/ span 2;
-}
-
-.large-card img{
+.story-card img {
     width: 100%;
     object-fit: cover;
-   border-top-left-radius: 16px;
-  border-top-right-radius: 16px;
+    border-radius: 16px 16px 0px 0px;
+
+
 }
 
-.story-title {
-    width: 402px;
-    text-align: left;
-    margin: 38px 98px 0 35px;
+.story-img-wrapper {
+    position: relative;
+}
+
+
+.lstory-title {
+    color: var(--bg4);
     font-size: 1.5rem;
+    width: 400px;
+    margin: 60px 30px 45px 38px;
+    text-align: left;
 }
 
 .story-desc {
     width: 433px;
-    margin: 47px 68px 34px 38px;
     color: rgba(102, 102, 102, 1);
-    font-size: 15.34px;
+    font-size: 1rem;
     font-weight: 500;
     line-height: 28.76px;
+    letter-spacing: 0%;
     text-align: left;
+    margin: 0 30px 34px 38px;
 }
 
-
-.story-card{
-    background-color: var(--text2);
-    border-radius: 16px;
-   
+.story-card .story-title {
+    width: 300px;
+    font-size: 1.5rem;
+    margin: 28px 38px;
+    text-align: left;
+    position: absolute;
+    top: -500;
 }
 
-.story-card img{
+.story-date {
+    background-color: #0378a7;
+    border-radius: 48px;
+    color: var(--text2);
+    padding: 10px 20px;
+    font-weight: 500;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
 
-   border-top-left-radius: 16px;
-  border-top-right-radius: 16px;
 }
 
+.large-card .story-date {
+    background-color: var(--bg1);
+}
 
-.story-date{
-    display: block;
-   
+.school-fits .story-date {
+    background-color: var(--bg2);
+}
+
+.summer-math .story-date {
+    background-color: var(--bg3);
+}
+
+.new-tutors .story-date {
+    background-color: var(--color-accent);
+}
+
+.kids-listening .story-date {
+    background-color: var(--color-primary);
+}
+
+.large-card {
+    grid-column: 1/span 4;
+    grid-row: 1/span 2;
+}
+
+.school-fits {
+    grid-column: 5/span 2;
+    grid-row: 1/span 1;
+}
+
+.summer-math {
+    grid-column: 7/span 2;
+    grid-row: 1/span 1;
+}
+
+.new-tutors {
+    grid-column: 5/span 2;
+    grid-row: 2/span 1;
+}
+
+.kids-listening {
+    grid-column: 7/span 2;
+    grid-row: 2/span 1;
 }
 
 
 /* footer section styles */
-footer{
- background-color: var(--color-accent);
-}
-.footer-container{
-   margin: 0 140px;
-   justify-content: space-between;
-   padding:123px 0  174px 0;
-   color: var(--text2);
+footer {
+    background-color: var(--color-accent);
 }
 
-.footer-container> div{
+.footer-container {
+    margin: 0 140px;
+    justify-content: space-between;
+    padding: 123px 0 174px 0;
+    color: var(--text2);
+}
+
+.footer-container>div {
     width: 400px;
 }
 
-.footer-logo{
+.footer-logo {
     align-items: center;
     color: var(--text2);
-     
+
 }
 
-.footer-logo .footer-title{
+.footer-logo .footer-title {
     width: 200px;
     font-size: 2.7rem;
-   
-}
-.footer-logo>img{
-width: 82.9px;
-height: 81.65px;
+
 }
 
-.footer-desc{
+.footer-logo>img {
+    width: 82.9px;
+    height: 81.65px;
+}
+
+.footer-desc {
     color: var(--text2);
-font-size: 1.4rem;
-font-weight: 400;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: left;
-margin-top: 35px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 35px;
 }
 
-.about-title{
+.about-title {
     font-size: 1.9rem;
     font-weight: 700;
     line-height: 100%;
-    margin-bottom:12px ;
+    margin-bottom: 12px;
 }
 
-.footer-menu a{
+.footer-menu a {
     display: block;
     text-decoration: none;
     color: var(--text2);
-    font-weight:500 ;
+    font-weight: 500;
     line-height: 100%;
     padding-top: 20px
-
 }
 
-.icon-title{
+.icon-title {
     font-size: 1.9rem;
     font-weight: 700;
     margin-bottom: 32px;
 }
-
-
-
-
-
-.display-hide{
-    display: none;
-}
-
-
