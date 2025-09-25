@@ -254,6 +254,7 @@
 
 .stories-btn {
     margin: 90px 0 70px;
+    position: static;
 }
 
 .stories-grid {
@@ -262,12 +263,9 @@
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
-
-
 }
 
 .story-card {
-
     background-color: var(--text2);
     border-radius: 16px;
     position: relative;
@@ -289,13 +287,11 @@
 .lstory-title {
     color: var(--bg4);
     font-size: 1.5rem;
-    width: 400px;
     margin: 60px 30px 45px 38px;
     text-align: left;
 }
 
 .story-desc {
-    width: 433px;
     color: rgba(102, 102, 102, 1);
     font-size: 1rem;
     font-weight: 500;
@@ -306,7 +302,6 @@
 }
 
 .story-card .story-title {
-    width: 300px;
     font-size: 1.5rem;
     margin: 28px 38px;
     text-align: left;
@@ -324,7 +319,6 @@
     bottom: -15px;
     left: 50%;
     transform: translateX(-50%);
-
 }
 
 .large-card .story-date {

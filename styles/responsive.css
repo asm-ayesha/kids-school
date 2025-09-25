@@ -59,10 +59,52 @@
     padding: 30px ;
 }
 
-    .card-btn{
+    .card-btn,
+    .large-card{
         display: none;
     }
 
+
+    /* our stories section responsive */
+    .stories-grid{
+        margin: 0 16px;
+     grid-template-columns: repeat(2,1fr);
+
+        
+    }
+
+    
+
+  .story-card .story-title {
+    margin:20px 10px !important;
+    position: static !important;
+    /* position: static !important; */
+      
+    font-size: 1.1rem;
+  }
+
+ .school-fits {
+    grid-column: 1/span 1;
+    grid-row: 1/span 1;
+} 
+
+.summer-math {
+    grid-column: 2/span 1;
+     grid-row: 1/span 1;
+   
+}
+
+.new-tutors {
+    grid-column: 1/span 1;
+     grid-row: 2/span 1;
+    
+}
+
+.kids-listening {
+    grid-column: 2/span 1;
+     grid-row: 2/span 1;
+    
+} 
 
 
 
